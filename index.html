@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get iintoo it today</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="left-section">
+            <div class="logo">
+                <img src="img/bg.jpg" alt="Background Image">
+                <img src="img/logo.svg" alt="iintoo Logo">
+                <span class="logo-sub">invest together</span>
+            </div>
+        </div>
+
+        
+        <div class="right-section">
+            <form class="signup-form">
+                <header class="form-header">
+                    <h1>Get iintoo it today</h1>
+                    <p>There is no charge or obligation upon registration.</p>
+                </header>
+
+                <div class="social-buttons">
+                    <button type="button" class="btn btn-facebook">
+                        <img src="img/facebook.svg" alt="Facebook" class="icon">
+                        <span>Register with Facebook</span>
+                    </button>
+                    <button type="button" class="btn btn-linkedin">
+                        <img src="img/linkedin.svg" alt="LinkedIn" class="icon">
+                        <span>Register with LinkedIn</span>
+                    </button>
+                </div>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" value="gus.goodwin@gmail.com" required placeholder=" ">
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required placeholder=" ">
+                    </div>
+                </div>
+
+                <div class="investor-type-section">
+                    <h3>What type of investor are you?</h3>
+                    <p class="sub-label">Select the type of investor you are below.</p>
+
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="investor_type" value="individual" id="radio-individual" checked>
+                            <span class="radio-custom"></span>
+                            <span class="label-text">Individual</span>
+                            <span class="info-icon">&#9432;</span>
+                        </label>
+
+                        <label class="radio-label">
+                            <input type="radio" name="investor_type" value="business" id="radio-business">
+                            <span class="radio-custom"></span>
+                            <span class="label-text">Business</span>
+                            <span class="info-icon">&#9432;</span>
+                        </label>
+
+                        <label class="radio-label">
+                            <input type="radio" name="investor_type" value="ira" id="radio-ira">
+                            <span class="radio-custom"></span>
+                            <span class="label-text">IRA</span>
+                            <span class="info-icon">&#9432;</span>
+                        </label>
+
+                        <label class="radio-label">
+                            <input type="radio" name="investor_type" value="trust" id="radio-trust">
+                            <span class="radio-custom"></span>
+                            <span class="label-text">Trust</span>
+                            <span class="info-icon">&#9432;</span>
+                        </label>
+                    </div>
+
+                    <div class="info-box-container">
+                        <div class="info-text text-individual">
+                            I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
+                        </div>
+                        <div class="info-text text-business">
+                            business
+                        </div>
+                        <div class="info-text text-ira">
+                            IRA.
+                        </div>
+                        <div class="info-text text-trust">
+                            trust.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="terms-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" required>
+                        <span class="custom-checkbox"></span>
+                        I agree to the terms and receiving notifications from iintoo. <a href="#" class="terms-link">View full terms</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-submit">Create Account</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
